@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ***Header*** */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  height: 50px;
+}
+.hdr_tag {
+  width: 20%;
+  padding: 10px;
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+.nav {
+  width: 80%;
+  background-color: rgb(231, 217, 199);
+  padding-top: 12px;
+  padding-left: 600px;
+}
+.nav ul {
+  background-color: blue;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav ul li:hover {
+  text-decoration: underline;
+}
+.signup_btn {
+  width: 100px;
+  height: 28px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border-style: solid;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-left: -20px;
+  transition: 0.3s;
+}
+.signup_btn:hover {
+  background-color:black;
+  color: white;
+  font-weight: lighter;
+}
+
+
+/* ***Home*** */
+
+.search {
+  display: flex;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 10%;
+  height: 40px;
+}
+.searchbox {
+  width: 90%;
+  border-radius: 25px;
+  background-color: rgb(208, 223, 228);
+  border-style: none;
+  padding-left: 25px;
+  padding-right: 15px;
+  outline: none;
+
+}
+.search_btn {
+  height: 35px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+  font-size: 15px;
+  width: 100px;
+  margin-top: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.search_btn:hover {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border-style: solid;
+}
+
+
+
+/* ---------Footer-------- */
+
+.footer_main {
+  margin-top: auto;
+  height: 300px;
+  justify-content: end;
+  background-color: rgb(231, 217, 199);
+}
+.footer_tag {
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+
+
+/* --------- Sign Up ---------- */
+.div1 {
+  width: 100%;
+  height: 45px;
+}
+
+.div2-1 {
+  width: 30%;
+}
+.div2-2 {
+  width: 70%;
+}
+
+.div4-1 {
+  width: 50%;
+}
+.div4-2 {
+  width: 50%;
+}
+
+.download{
+  display: none;
+}
+
+
+.wallpapers > div{
+  margin: 20px;
+  object-fit: cover;
+  transition: 0.35s;
+
+}
+.wallpapers > div:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  
+}
+
+.wallpapers:hover + .download {
+  display: block;
+}
