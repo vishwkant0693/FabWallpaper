@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vishwkant0693/FabWallpaper/static/css/main.e3e0ce29.css",
+    "main.js": "/vishwkant0693/FabWallpaper/static/js/main.92772234.js",
+    "static/js/787.ddb7b6d8.chunk.js": "/vishwkant0693/FabWallpaper/static/js/787.ddb7b6d8.chunk.js",
+    "index.html": "/vishwkant0693/FabWallpaper/index.html",
+    "main.e3e0ce29.css.map": "/vishwkant0693/FabWallpaper/static/css/main.e3e0ce29.css.map",
+    "main.92772234.js.map": "/vishwkant0693/FabWallpaper/static/js/main.92772234.js.map",
+    "787.ddb7b6d8.chunk.js.map": "/vishwkant0693/FabWallpaper/static/js/787.ddb7b6d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3e0ce29.css",
+    "static/js/main.92772234.js"
+  ]
+}
